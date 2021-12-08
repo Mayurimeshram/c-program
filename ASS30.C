@@ -4,15 +4,14 @@ void main()
 {
 int i,s;
 clrscr();
-printf("enter the even number");
+printf("enter the even number from 1 to specified value");
 scanf("%d",&i);
-for(i=0;i<=10;i++)
+for(i=0;i<=i;i++)
 {
 if(i%2==0)
-s=s*i;
-}
 {
-printf("enter the square of each one of even numbers ",i,s);
+printf("enter the square of each one  even num %d^2=%d\n",i,i*i);
 }
 getch();
+}
 }
