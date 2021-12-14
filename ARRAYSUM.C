@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int marks[5]={22,33,44,55,66};
+int i;
+int sum=0;
+for(i=0;i<5;i++)
+sum=sum+marks[i];
+{
+printf(" enter marks%d\n",sum);
+}
+getch();
+}
