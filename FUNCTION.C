@@ -1,13 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+void addition();
 {
-printf(" mayuri meshram\n");
-printf(" mayuri\n");
-printf(" mayuri meshram\n");
-printf(" mona\n");
-printf(" mayuri meshram\n");
-printf("mayuri\n");
-printf("mayu\n");
-getch();
+int n1,n2,res;
+clrscr();
+printf(" enter two number\n");
+scanf("%d%d",&n1,&n2);
 }
